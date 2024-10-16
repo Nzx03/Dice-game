@@ -15,8 +15,8 @@ def evaluate():
       i=0
       while i<maxi:
                
-               i+=1
-               current_score=0
+               
+            
             
                   
                      
@@ -32,7 +32,7 @@ def evaluate():
                else:
                   current_score+=value
                   print("You rolled a :",value)
-                  
+               i+=1  
 
                print("Your score is:",current_score)
       player_scores[player_idx]+=current_score
